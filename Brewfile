@@ -7,9 +7,8 @@ tap "stripe/stripe-cli"
 brew "composer"
 brew "dnsmasq", restart_service: true
 brew "git"
-brea "mackup"
+brew "mackup"
 brew "mas"
-brew "mysql@5.7", restart_service: true
 brew "nginx", restart_service: true
 brew "node"
 brew "php", restart_service: true
