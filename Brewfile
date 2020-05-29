@@ -1,114 +1,62 @@
-# Taps
-tap 'homebrew/cask'
-tap 'homebrew/cask-eid'
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
-tap 'homebrew/bundle'
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "stripe/stripe-cli"
 
-# Binaries
-brew 'awscli'
-brew 'bash' # Latest Bash version
-brew 'bat' # "cat" on steroids
-brew 'coreutils' # Those that come with macOS are outdated
-brew 'ffmpeg'
-brew 'gh'
-brew 'git'
-brew 'gnupg2'
-brew 'grep'
-brew 'httpie'
-brew 'hub'
-brew 'mackup'
-brew 'mas' # Mac App Store manager
-brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe'
-brew 'trash' # Manage the Trash bin
-brew 'tree' # List directories in a tree structure
-brew 'zlib' # Needed for Memcached
+brew "composer"
+brew "dnsmasq", restart_service: true
+brew "git"
+brea "mackup"
+brew "mas"
+brew "mysql@5.7", restart_service: true
+brew "nginx", restart_service: true
+brew "node"
+brew "php", restart_service: true
+brew "php-cs-fixer"
+brew "php@7.2"
+brew "php@7.3"
+brew "phpunit"
+brew "rbenv"
+brew "redis", restart_service: true
+brew "ruby"
+brew "stripe/stripe-cli/stripe"
+brew "yarn"
 
-# Spatie Medialibrary
-brew 'jpegoptim'
-brew 'optipng'
-brew 'pngquant'
-brew 'svgo'
-brew 'gifsicle'
+cask "alfred"
+cask "anylist"
+cask "arq"
+cask "bartender"
+cask "bbedit"
+cask "daisydisk"
+cask "discord"
+cask "fantastical"
+cask "firefox"
+cask "front"
+cask "google-chrome"
+cask "insomnia"
+cask "iterm2"
+cask "lingon-x"
+cask "querious"
+cask "slack"
+cask "soulver"
+cask "superduper"
+cask "tableplus"
+cask "transmit"
+cask "tower"
+cask "visual-studio-code"
 
-# Development
-brew 'php'
-brew 'php@7.3'
-brew 'php@7.2'
-brew 'composer'
-brew 'imagemagick'
-brew 'libmemcached'
-brew 'memcached'
-brew 'mysql'
-brew 'nginx'
-brew 'node'
-brew 'redis'
-brew 'yarn'
+mas "1Blocker", id: 1107421413
+mas "1Password 7", id: 1333542190
+mas "Deliveries", id: 924726344
+mas "FruitJuice", id: 671736912
+mas "Honey", id: 1472777122
+mas "Instapaper", id: 1481302432
+mas "Lockdown", id: 1483255076
+mas "Monosnap", id: 540348655
+mas "Spark", id: 1176895641
+mas "ToothFairy", id: 1191449274
+mas "Tot", id: 1491071483
+mas "Twitterrific", id: 1289378661
+mas "Xcode", id: 497799835
 
-# Apps
-cask '1password'
-cask 'aerial'
-cask 'alfred'
-cask 'bartender'
-cask 'caffeine'
-cask 'dbngin'
-cask 'discord'
-cask 'docker'
-cask 'figma'
-cask 'firefox'
-cask 'github'
-cask 'google-backup-and-sync'
-cask 'google-chrome'
-cask 'gpg-suite'
-cask 'imageoptim'
-cask 'insomnia'
-cask 'java'
-cask 'mysqlworkbench'
-cask 'nvidia-geforce-now'
-cask 'phpstorm'
-cask 'screenflow'
-cask 'skype'
-cask 'slack'
-cask 'steam'
-cask 'sublime-text'
-cask 'tableplus'
-cask 'telegram-desktop'
-cask 'there'
-cask 'the-unarchiver'
-cask 'tinkerwell'
-cask 'tor-browser'
-cask 'transmission'
-cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox' # Might need to allow access in Security settings
-cask 'virtualbox-extension-pack'
-cask 'visual-studio-code'
-cask 'vlc'
-cask 'whatsapp'
-
-# Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-cask 'qlstephen'
-
-# Fonts
-cask 'font-lato'
-cask 'font-open-sans'
-cask 'font-roboto'
-cask 'font-roboto-condensed'
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
-
-# Mac App Store
-mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Spark', id: 1176895641
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005

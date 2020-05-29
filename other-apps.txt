@@ -1,0 +1,11 @@
+## MacOS
+
+* Bear
+* F-Bar
+* StopTheMadness
+* StopTheNews
+* Tinkerwell
+* Things
+
+## CLI
+nvm
