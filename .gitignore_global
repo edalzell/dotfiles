@@ -23,13 +23,13 @@
 # Logs and databases #
 ######################
 *.log
-*.sql
 *.sqlite
 
 # OS generated files #
 ######################
 .DS_Store
 .DS_Store?
+*.icloud
 ._*
 .Spotlight-V100
 .Trashes
@@ -38,3 +38,13 @@ Thumbs.db
 .idea/
 .vscode
 .vagrant/
+
+# Environment specific files #
+##############################
+*.npmrc
+.phpunit.result.cache
+
+# Extension files #
+###################
+/storage/antlers-language-server
+.antlers.json
