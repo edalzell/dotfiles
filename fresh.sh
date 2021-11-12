@@ -21,8 +21,7 @@ mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_passwor
 pecl install xdebug
 
 # Install global Composer packages
-/usr/local/bin/composer global require hirak/prestissimo
-/usr/local/bin/composer global require laravel/installer statamic/cli laravel/valet
+/usr/local/bin/composer global require laravel/installer statamic/cli laravel/valet beyondcode/expose tightenco/takeout
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
