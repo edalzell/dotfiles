@@ -43,7 +43,6 @@ cask "helo"
 cask "insomnia"
 cask "lingon-x"
 cask "phpmon"
-cask "querious"
 cask "ray"
 cask "slack"
 cask "soulver"
@@ -60,12 +59,16 @@ mas "1Password 7", id: 1333542190
 mas "BarTunes" id: 444425546
 mas "Bear" 1091189122
 mas "Deliveries", id: 924726344
+mas "Everhour Time Tracker", id: 1539652800
 mas "FruitJuice", id: 671736912
-mas "Hush" id: 1544743900
-mas "Keynote" id: 409183694
-mas "Numbers" id: 409203825
-mas "Pages" id: 409201541
+mas "Hush", id: 1544743900
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Reeder 5", id: 1529448980
 mas "Spark", id: 1176895641
+mas "StopTheMadness", id: 1376402589
+mas "Things 3", id: 904280696
 mas "ToothFairy", id: 1191449274
 mas "Tot", id: 1491071483
 mas "Twitterrific", id: 1289378661
