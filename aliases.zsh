@@ -13,18 +13,24 @@ alias sites="cd $HOME/Sites"
 
 # Laravel
 alias art="php artisan"
+alias acc="art cache:clear"
 alias fresh="php artisan migrate:fresh --seed"
 alias seed="php artisan db:seed"
 alias rl="art route:list --columns=uri,name,action"
+alias avc="art view:clear"
+
+# Brew
+alias bo="brew outdated"
+alias bu="brew update"
 
 # Composer
 alias fu-composer="rm vendor composer.lock && composer clear-cache"
+alias cu="composer update"
+alias cda="composer dump-autoload"
 
 # Statamic
 alias plz="php please"
 
-# PHP
-alias cfresh="rm -rf vendor/ composer.lock && composer i"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
