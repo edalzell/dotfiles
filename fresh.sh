@@ -2,6 +2,11 @@
 
 echo "Setting up your Mac..."
 
+
+# install xcode cli tools
+xcode-select —install
+
+
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"

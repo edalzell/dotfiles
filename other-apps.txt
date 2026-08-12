@@ -1,11 +1,6 @@
 ## MacOS
 
-* Bear
-* F-Bar
-* StopTheMadness
-* StopTheNews
-* Tinkerwell
-* Things
+* Hide My Bar
 
 ## CLI
 nvm

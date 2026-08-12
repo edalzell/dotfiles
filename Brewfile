@@ -12,7 +12,7 @@ brew "mas"
 brew "mysql", restart_service: true
 brew "nginx", restart_service: true
 brew "node"
-brew "php", restart_service: true
+brew "php8.0", restart_service: true
 brew "php@7.4"
 brew "phpunit"
 brew "php-cs-fixer"

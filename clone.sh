@@ -3,28 +3,24 @@
 echo "Cloning repositories..."
 
 SITES=$HOME/Sites
-BLADE=$SITES/blade-ui-kit
-LARAVEL=$SITES/laravel
 
-# Personal
-git clone git@github.com:driesvints/checklists.git $SITES/checklists
-git clone git@github.com:driesvints/driesvints.com.git $SITES/driesvints.com
-git clone git@github.com:driesvints/eventy.io.git $SITES/eventy.io
-git clone git@github.com:driesvints/steunze.be.git $SITES/steunze.be
-git clone git@github.com:EventSaucePHP/LaravelEventSauce.git $SITES/LaravelEventSauce
-git clone git@github.com:fullstackbelgium/fullstackbelgium.be.git $SITES/fullstackbelgium.be
-git clone git@github.com:fullstackeurope/fullstackeurope.com.git $SITES/fullstackeurope.com
-git clone git@github.com:laravelio/laravel.io.git $SITES/laravel.io
-git clone git@github.com:laravelio/paste.laravel.io.git $SITES/paste.laravel.io
-
-# Blade UI Kit
-git clone git@github.com:blade-ui-kit/blade-heroicons.git $BLADE/blade-heroicons
-git clone git@github.com:blade-ui-kit/blade-icons.git $BLADE/blade-icons
-git clone git@github.com:blade-ui-kit/blade-ui-kit.git $BLADE/blade-ui-kit
-git clone git@github.com:blade-ui-kit/blade-ui-kit.com.git $BLADE/blade-ui-kit.com
+# SZC
+git clone git@github.com:The-Groundlings/groundlings.git $SITES/groundlings
+git clone git@github.com:silentzco/modernwelding.com.git $ISTES/modernwelding
+git clone git@github.com:paulingraham/painsci.git $SITES/ps
+git clone git@github.com:github.com/silentzco/silentz.co.git $SITES/silentz
 git clone git@github.com:blade-ui-kit/blade-zondicons.git $BLADE/blade-zondicons
 
-# Laravel
+# Transform
+git clone git@github.com:transformstudios/fitnessmd.git $SITES/fitnessmd
+git clone git@github.com:transformstudios/newtex.com-v2020.git $SITES/newtex
+git clone git@github.com:transformstudios/simple-starter-kit.git $SITES/simple-starter-kit
+git clone git@github.com:transformstudios/tarbiya.org-v3.git $SITES/tarbiya
+git clone git@github.com:transformstudios/transform-v3.git $SITES/transform
+git clone git@github.com:transformstudios/zakat-v3.git $SITES/zakat
+git clone git@github.com:transformstudios/zaytuna.edu.git $SITES/zaytuna
+
+# Addons
 git clone git@github.com:laravel/browser-kit-testing.git $LARAVEL/browser-kit-testing
 git clone git@github.com:laravel/cashier.git $LARAVEL/cashier
 git clone git@github.com:laravel/cashier-paddle.git $LARAVEL/cashier-paddle

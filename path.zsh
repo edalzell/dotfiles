@@ -1,3 +1,6 @@
+# User-installed scripts/binaries (XDG-style, no sudo required)
+export PATH="$HOME/.local/bin:$PATH"
+
 # Load Composer tools
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
@@ -12,6 +15,9 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Brew's Ruby
 export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.7.0/bin:$PATH"
+
+# DBngin MySql
+export PATH=/Users/Shared/DBngin/mysql/8.2/bin:$PATH
 
 # Make sure coreutils are loaded before system commands
 # I've disabled this for now because I only use "ls" which is
