@@ -17,6 +17,7 @@ brew "handbrake"
 brew "imagemagick"
 brew "jq"
 brew "lychee"
+brew "mas"
 brew "phpunit"
 brew "pure"
 brew "s3cmd"
@@ -79,6 +80,27 @@ cask "vlc"
 cask "whatsapp"
 cask "windows-app"
 cask "zoom"
+
+mas "1Blocker", id: 1365531024
+mas "1Password for Safari", id: 1569813296
+mas "Aspen", id: 6475777033
+mas "Bear", id: 1091189122
+mas "Business", id: 1588151344
+mas "Everhour", id: 1539652800
+mas "Hush", id: 1544743900
+mas "Hyperspace", id: 6739505345
+mas "Ivory", id: 6444602274
+mas "Keynote", id: 409183694
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
+mas "Refined GitHub", id: 1519867270
+mas "StopTheMadness", id: 1376402589
+mas "Telegram", id: 747648890
+mas "TestFlight", id: 899247664
+mas "ToothFairy", id: 1191449274
+mas "Unread", id: 1363637349
+mas "Wipr", id: 1662217862
+mas "Xcode", id: 497799835
 
 vscode "amiralizadeh9480.laravel-extra-intellisense"
 vscode "anthropic.claude-code"
