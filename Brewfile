@@ -1,74 +1,121 @@
+tap "1password/tap", trusted: true
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
-tap nicoverbruggen/homebrew-cask
+tap "laravel/moat", "https://github.com/laravel/moat", trusted: true
+tap "shivammathur/extensions", trusted: true
+tap "shivammathur/php", trusted: true
+tap "stripe/stripe-cli", trusted: true
 
-brew "composer"
-brew "dnsmasq", restart_service: true
+brew "pcre2"
+brew "cocoapods"
+brew "ffmpeg"
+brew "gh"
 brew "git"
-brew "mackup"
-brew "mas"
-brew "mysql", restart_service: true
-brew "nginx", restart_service: true
-brew "node"
-brew "php8.0", restart_service: true
-brew "php@7.4"
+brew "git-filter-repo"
+brew "git-lfs"
+brew "handbrake"
+brew "imagemagick"
+brew "jq"
+brew "lychee"
 brew "phpunit"
-brew "php-cs-fixer"
 brew "pure"
-brew "rbenv"
-brew "ruby"
-brea "trash"
+brew "s3cmd"
+brew "sshpass"
+brew "trash", link: true
+brew "wget"
+brew "woff2"
 brew "yarn"
-brea "zsh-autosuggestions"
+brew "zsh-autosuggestions"
+brew "laravel/moat/moat"
+brew "shivammathur/extensions/pcov@8.5", trusted: true
+brew "stripe/stripe-cli/stripe"
 
-cask "alfred"
+cask "1password"
+cask "1password-cli"
+cask "airtable"
 cask "anylist"
 cask "arq"
-cask "bartender"
 cask "bbedit"
-cask "brave-browser"
-cask "choosy"
+cask "chatgpt"
+cask "claude"
+cask "claude-code"
 cask "cleanshot"
+cask "cloudflare-warp"
+cask "cursor"
 cask "daisydisk"
 cask "discord"
-cask "docker"
-cask "fantastical"
 cask "f-bar"
+cask "fantastical"
 cask "firefox"
+cask "font-monaspace"
 cask "front"
+cask "gnome"
 cask "hazel"
-cask "helo"
+cask "herd"
 cask "insomnia"
+cask "istat-menus"
+cask "iterm2"
+cask "jordanbaird-ice"
 cask "lingon-x"
-cask "phpmon"
+cask "microsoft-teams"
+cask "name-mangler"
+cask "ollama-app"
 cask "ray"
+cask "raycast"
+cask "readdle-spark"
 cask "slack"
-cask "soulver"
-cask "superduper"
 cask "tableplus"
+cask "telegram"
+cask "thaw"
 cask "tinkerwell"
-cask "transmit"
 cask "tower"
+cask "transmission"
+cask "transmit"
+cask "tunnelbear"
+cask "tuple"
+cask "ungoogled-chromium"
 cask "visual-studio-code"
-cask "witch"
+cask "vlc"
+cask "whatsapp"
+cask "windows-app"
+cask "zoom"
 
-mas "1Blocker", id: 1365531024
-mas "1Password 7", id: 1333542190
-mas "BarTunes" id: 444425546
-mas "Bear" 1091189122
-mas "Deliveries", id: 924726344
-mas "Everhour Time Tracker", id: 1539652800
-mas "FruitJuice", id: 671736912
-mas "Hush", id: 1544743900
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Reeder 5", id: 1529448980
-mas "Spark", id: 1176895641
-mas "StopTheMadness", id: 1376402589
-mas "Things 3", id: 904280696
-mas "ToothFairy", id: 1191449274
-mas "Tot", id: 1491071483
-mas "Twitterrific", id: 1289378661
+vscode "amiralizadeh9480.laravel-extra-intellisense"
+vscode "anthropic.claude-code"
+vscode "bmewburn.vscode-intelephense-client"
+vscode "bradlc.vscode-tailwindcss"
+vscode "calebporzio.better-keybindings"
+vscode "calebporzio.better-phpunit"
+vscode "calebporzio.simple-project-switcher"
+vscode "cjhowe7.laravel-blade"
+vscode "drcika.apc-extension"
+vscode "eamodio.gitlens"
+vscode "editorconfig.editorconfig"
+vscode "esbenp.prettier-vscode"
+vscode "freshbitsweb.laravel-traveller"
+vscode "heybourn.headwind"
+vscode "jaguadoromero.vscode-php-create-class"
+vscode "laravel.vscode-laravel"
+vscode "liamhammett.temphpest"
+vscode "mehedidracula.php-namespace-resolver"
+vscode "mikestead.dotenv"
+vscode "mrmlnc.vscode-duplicate"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "ms-vscode-remote.remote-containers"
+vscode "neilbrayfield.php-docblocker"
+vscode "open-southeners.laravel-pint"
+vscode "openai.chatgpt"
+vscode "patrick-levesque.herd-xdebug-toggler"
+vscode "pflannery.vscode-versionlens"
+vscode "rebornix.toggle"
+vscode "shufo.vscode-blade-formatter"
+vscode "simonsiefke.svg-preview"
+vscode "stillat-llc.vscode-antlers"
+vscode "tonsky.theme-alabaster"
+vscode "vue.volar"
+
+npm "corepack"
+npm "playwright"
