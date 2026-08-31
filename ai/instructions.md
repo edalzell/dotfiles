@@ -96,5 +96,6 @@
 ## Prime (transformstudios/prime repo)
 - Dev repo lives at `/Users/erin/Development/prime`. Work on ordinary branches there (fetch/`main` current first).
 - Symlink that checkout into the consuming project (e.g. `vendor/transformstudios/prime`) when the change needs live review in a real site.
-- Stop and wait for manual approval after the fix is ready for review — don't push or open a PR yet.
-- Once approved: push the branch and open a **draft PR** with a concise summary — what the issue was and what changed (see the general "PR descriptions" guidance above). Reference the driving issue with `References #123`, not `Closes` — the issue usually lives in the consuming site's repo, not Prime's, so merging the PR shouldn't auto-close it.
+- For agent workflow details (workspace sandbox gate, Livewire map, draft PR steps), read and follow the `prime-dev` skill (`~/.dotfiles/ai/skills/prime-dev`, linked into `~/.agents/skills` and `~/.claude/skills`).
+- If the Cursor workspace is **not** the Prime repo: tell yourself up front "Prime is outside the workspace — use Shell with all for every write"; don't background write-capable subagents until that permission card is approved.
+- When the fix is ready for review: push the branch and open a **draft PR** (always draft) with a concise summary — what the issue was and what changed (see the general "PR descriptions" guidance above). Reference the driving issue with `References #123`, not `Closes` — the issue usually lives in the consuming site's repo, not Prime's, so merging the PR shouldn't auto-close it.
